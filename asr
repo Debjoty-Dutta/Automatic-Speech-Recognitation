@@ -1,0 +1,4 @@
+pip install deepspeech==0.6.1
+!apt-get install -qq sox
+import deepspeech
+!deepspeech --model speech/output_graph.pbmm --lm speech/lm.binary --trie speech/trie --audio /content/06_M_artic_01_004.wav
